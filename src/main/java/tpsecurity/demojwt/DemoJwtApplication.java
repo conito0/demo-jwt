@@ -10,4 +10,13 @@ public class DemoJwtApplication {
 		SpringApplication.run(DemoJwtApplication.class, args);
 	}
 
+
+	public class DemoJwtApplication {
+
+		public static void main(String[] args) {
+			SpringApplication.run(DemoJwtApplication.class, args);
+			System.out.println("Está funcionando");
+		}
+
+	}
 }
